@@ -1,24 +1,21 @@
 import Image from "next/image";
 import { Inter } from "next/font/google";
+import NavBar from "./components/navbar";
+import Hero from "./components/hero";
+import Banner from "./components/banner";
+import Footer from "./components/footer";
+import PricingTable from "./components/pricingtable";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <div className="container">
-      <h1>Floor Landing Page</h1>
-      <div className="card">
-        <h2>One Time Membership</h2>
-        <p>$49 per mo</p>
-        <ul>
-          <li>10-120 Lobbies</li>
-          <li>Unlimited IRL/URL</li>
-          <li>Access to the community</li>
-          <li>5000 filters</li>
-          <li>Unlimited connections</li>
-        </ul>
-        <button className="cta">Join Now</button>
-      </div>
+    <div className="max-w-full min-h-full">
+      <NavBar />
+      <Hero />
+      <PricingTable />
+      <Banner />
+      <Footer />
     </div>
   );
 }
