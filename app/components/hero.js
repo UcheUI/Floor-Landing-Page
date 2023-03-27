@@ -36,7 +36,7 @@ function SectionOne() {
         </span>
       </div>
       <div>
-        <Image src="/images/Frame 81.png" width={600} height={600} />
+        <Image src="/images/Frame 81.png" width={600} height={600} alt="hero" />
       </div>
     </section>
   );
@@ -50,7 +50,12 @@ function SectionTwo() {
       </h1>
 
       <div className="p-2">
-        <Image src="/images/Frame 203.png" width={800} height={400} />
+        <Image
+          src="/images/Frame 203.png"
+          width={800}
+          height={400}
+          alt="hero-img"
+        />
       </div>
     </section>
   );
