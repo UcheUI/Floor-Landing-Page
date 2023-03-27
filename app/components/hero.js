@@ -28,7 +28,7 @@ function SectionOne() {
           </a>
 
           <a
-            href="#pricing-table"
+            href="https://floor-app.notion.site/Welcome-to-Floor-27072cdb12954abda34a8eaa7c5519e3"
             className="inline-block border-1 border-black border-solid font-semibold text-black text-md py-3 px-6 "
           >
             Learn more
