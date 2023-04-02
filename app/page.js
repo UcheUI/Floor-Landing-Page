@@ -6,7 +6,6 @@ import Banner from "./components/banner";
 import Footer from "./components/footer";
 import PricingTable from "./components/pricingtable";
 
-const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (

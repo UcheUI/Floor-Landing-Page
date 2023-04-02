@@ -6,19 +6,13 @@ export default function NavBar() {
       <div className="logo">
         <Image src="/images/Dark Logo.png" width={120} height={120} />
       </div>
-      <div className="flex items-center">
-        <ul className="lg:flex hidden">
-          <li className="mr-4">
-            <a href="#">How It Works</a>
-          </li>
-          <li className="mr-4">
-            <a href="#">Learn More</a>
-          </li>
-        </ul>
-        <a href="#pricing-table" className="inline-block bg-blue-500 font-medium text-white text-md py-2 px-6 rounded-sm">
-          Join Now
-        </a>
-      </div>
+
+      <a
+        href="#pricing-table"
+        className="inline-block bg-blue-500 font-medium text-white text-md py-2 px-6 rounded-sm"
+      >
+        Join Now
+      </a>
     </nav>
   );
 }

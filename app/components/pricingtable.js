@@ -5,7 +5,7 @@ export default function PricingTable() {
       className="flex lg:flex-row flex-col items-center justify-evenly p-4"
     >
       <span className="flex flex-col items-start">
-        <h1 className="text-center text-5xl mb-4">Become a Member Today!</h1>
+        <h1 className="text-left text-4xl mb-4">Become a Member Today!</h1>
         <List label="Schedule unlimited 1:1 Intros " />
         <List label="Host up to 20 IRL/URL events " />
         <List label="Host lobbies with up to 50 users  " />

@@ -11,10 +11,10 @@ export default function Hero({ className }) {
 
 function SectionOne() {
   return (
-    <section className="w-full flex flex-col justify-center items-center">
+    <section className="w-full flex flex-col justify-center items-center px-3">
       <div className="flex flex-col items-center pt-4">
-        <h1 className="lg:text-6xl text-4xl font-semibold mb-2 text-center">
-          Discover • Connect • Grow
+        <h1 className="lg:text-5xl text-4xl font-semibold mb-2 p-4 lg:px-36 text-center">
+         Floor, where tech professionals come to Connect!
         </h1>
         <p className="text-gray-600 text-center text-md">
           Join Floor today and discover your next opportunity!
@@ -49,8 +49,8 @@ function SectionTwo() {
         How Floor Works!
       </h1>
 
-      <div className="p-2">
-        <Image src="/images/Frame 203.png" width={800} height={400} />
+      <div className="p-4">
+        <Image src="/images/Frame 203.png" width={800} height={800} />
       </div>
     </section>
   );
