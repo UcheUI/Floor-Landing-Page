@@ -54,9 +54,13 @@ a {
   }  */
 
 span.keyword {
-  width: 200px;
+  width: 100%;
   height: 50px;
- 
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   position: relative;
   overflow: hidden;
   text-align: center;
@@ -65,20 +69,20 @@ span.keyword {
 span.keyword > .item:nth-child(1) {
   position: absolute;
   top: 100%;
-  left: 0;
-  animation: flipUp 9s cubic-bezier(0.68, -0.55, 0.26, 1.55) 0s both infinite;
+
+  animation: flipUp 4s cubic-bezier(0.68, -0.55, 0.26, 1.55) 0s both infinite;
 }
 span.keyword > .item:nth-child(2) {
   position: absolute;
   top: 100%;
-  left: 0;
-  animation: flipUp 9s cubic-bezier(0.68, -0.55, 0.26, 1.55) 1.5s both infinite;
+
+  animation: flipUp 4s cubic-bezier(0.68, -0.55, 0.26, 1.55) 1s both infinite;
 }
 span.keyword > .item:nth-child(3) {
   position: absolute;
   top: 100%;
-  left: 0;
-  animation: flipUp 9s cubic-bezier(0.68, -0.55, 0.26, 1.55) 3s both infinite;
+
+  animation: flipUp 4s cubic-bezier(0.68, -0.55, 0.26, 1.55) 2s both infinite;
 }
 
 @keyframes flipUp {

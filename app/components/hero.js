@@ -15,7 +15,7 @@ function SectionOne() {
       <div className="flex flex-col items-center pt-4">
         <h1 className="w-auto h-auto lg:text-5xl text-4xl font-semibold mt-2 mb-2 text-center flex flex-col items-center justify-center">
          <span className="inline-block"> Floor, where tech professionals come to{" "}</span>
-          <span className="keyword inline-block p-4">
+          <span className="keyword inline-block lg:p-4 mt-2">
             <span className="item text-blue-600">Discover</span>
             <span className="item text-blue-600">Connect</span>
             <span className="item text-blue-600">Grow</span>
