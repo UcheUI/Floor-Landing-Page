@@ -13,8 +13,13 @@ function SectionOne() {
   return (
     <section className="w-full flex flex-col justify-center items-center px-3">
       <div className="flex flex-col items-center pt-4">
-        <h1 className="lg:text-5xl text-4xl font-semibold mb-2 p-4 lg:px-36 text-center">
-         Floor, where tech professionals come to Connect!
+        <h1 className="w-auto h-auto lg:text-5xl text-4xl font-semibold mt-2 mb-2 text-center flex flex-col items-center justify-center">
+         <span className="inline-block"> Floor, where tech professionals come to{" "}</span>
+          <span className="keyword inline-block p-4">
+            <span className="item text-blue-600">Discover</span>
+            <span className="item text-blue-600">Connect</span>
+            <span className="item text-blue-600">Grow</span>
+          </span>
         </h1>
         <p className="text-gray-600 text-center text-md">
           Join Floor today and discover your next opportunity!
